@@ -3,11 +3,11 @@ import axios from "axios";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = 3000;
+const port = 3001;
 const API_URL = "https://secrets-api.appbrewery.com";
 
 //Add your own bearer token from the previous lesson.
-const yourBearerToken = "08f3026d-9c6c-4d88-a3b2-c579dc106247";
+const yourBearerToken = "08351f64-8293-45a0-9e43-06802b2030c4";
 const config = {
   headers: { Authorization: `Bearer ${yourBearerToken}` },
 };
